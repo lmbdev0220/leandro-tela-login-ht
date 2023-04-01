@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Prompt:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>🔑Login</title>
 </head>
+
 <body>
     <main>
+        <section id="info" class="info"></section>
         <header>
             <span>LOGIN</span>
         </header>
@@ -16,13 +24,14 @@
         <section>
             <form>
                 <label>Usuário:</label>
-                <input type="text">
+                <input type="text" placeholder="username">
                 <label>Senha:</label>
-                <input type="password">
-                <button type="button" onclick="salvar()">Salvar</button>
+                <input type="password" placeholder="password">
+                <button type="button" onclick="buscarInformacoesGitHub()">LOGAR</button>
             </form>
         </section>
     </main>
     <script src="/src/js/script.js"></script>
 </body>
+
 </html>
